@@ -14,8 +14,5 @@ variable "environment" {
     error_message = "environment must be one of: dev, test, staging, prod."
   }
 }
-variable "unused_example" {
-  type    = string
-  default = "not used anywhere"
-}
+
 
